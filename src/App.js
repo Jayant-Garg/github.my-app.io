@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import Alert from './components/Alert';
-import About from './components/About';
+// import About from './components/About';
 // import {
 //   BrowserRouter as Router,
 //   Routes,
@@ -13,7 +13,7 @@ import About from './components/About';
 
 function App() {
   const [mode, setMode] = useState('light');
-  const [btnText, setBtnText] = useState('Enable Dark Mode');
+  const [btnText, ] = useState('Enable Dark Mode');
   const toggleMode = () => {
     if (mode === 'light') {
       setMode('dark');
