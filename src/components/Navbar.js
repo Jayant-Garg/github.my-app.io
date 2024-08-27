@@ -12,17 +12,17 @@ export default function Navbar(props) {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav me-auto">
         <li className="nav-item">
-          <a className="nav-link" href="/home">{props.dd1}</a>
+          <a className="nav-link" href="#">{props.dd1}</a>
           {/* <Link className="nav-link" to="/home">{props.dd1}</Link> */}
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a className="nav-link" href="/about">{props.dd2}</a>
-          {/* <Link className="nav-link" to="/about">{props.dd2}</Link> */}
+          <Link className="nav-link" to="/about">{props.dd2}</Link>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#contact">Contact Us</a>
-          {/* <Link className="nav-link" to="#contact">Contact Us</Link> */}
-        </li>
+          <Link className="nav-link" to="#contact">Contact Us</Link>
+        </li> */}
       </ul>
       <form className="d-flex">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />

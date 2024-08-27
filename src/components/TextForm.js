@@ -32,7 +32,7 @@ export default function TextArea(props) {
                 </div>
                 <div className={`container form-group text-${props.mode === 'light' ? 'dark' : 'light'}`}>
                     <h2>Your Text Summary</h2>
-                    <p>{text == "" ? 0 : text.trim().split(/[ ]+/).length} words, {text.length} characters</p>
+                    <p>{text === "" ? 0 : text.trim().split(/[ ]+/).length} words, {text.length} characters</p>
                     {/* <p>{text.split(" ").filter((element) => { return element.length!=0 }).length} words, {text.length} characters</p> */}
                     <h2>Preview</h2>
                     <p>{text}</p>
